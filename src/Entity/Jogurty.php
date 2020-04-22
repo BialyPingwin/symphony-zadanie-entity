@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Jogurty
 {
-    public function Jogurty($nazwa = "test")
+    public function __construct($nazwa = "test")
     {
         $this->setNazwa($nazwa);
 
